@@ -1,0 +1,45 @@
+div {
+  background: #ffffff2d;
+  padding: 30px;
+  width: 100%;
+}
+
+@media  {
+  div {
+    background: rgba(255,255,255,0);
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #main-wrapper {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    background: url("../../assets/img/bg.jpg") top / cover no-repeat;
+  }
+}
+
+#question-box {
+}
+
+@media (max-width: 768px) {
+  #neutro-response {
+  }
+}
+
+@media (min-width: 768px) {
+  #main-wrapper {
+    flex-direction: row;
+  }
+}
+
